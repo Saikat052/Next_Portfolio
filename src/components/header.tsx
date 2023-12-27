@@ -4,7 +4,13 @@ import React from 'react';
 const Header: React.FC = () => {
   return (
     <header>
-         <h1>Yo boi</h1>
+      <nav>
+        <div>Home</div>
+        <div>Project</div>
+        <div>About</div>
+        <div>contact</div>
+
+      </nav>
     </header>
   );
 };
