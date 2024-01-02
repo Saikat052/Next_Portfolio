@@ -8,16 +8,16 @@ const Header: React.FC = () => {
 
         <div className='logo'>Logo</div>
         <div className='navContainerDesktop'>
-          <button className='navIcon'>Home</button>
-          <div className='navIcon'>projects</div>
-          <div className='navIcon'>personal info</div>
-          <div className='navIcon'>contact</div>
+        <a href="/" className='navLink'>Home</a>
+        <a href="/" className='navLink'>Projects</a>
+        <a href="/" className='navLink'>Personal Info</a>
+        <a href="/" className='navLink'>Contact</a>
         </div>
         <div className='navContainerMobile'>
-          <div className='navIcon'>Home</div>
-          <div className='navIcon'>projects</div>
-          <div className='navIcon'>personal info</div>
-          <div className='navIcon'>contact</div>
+        <a href="/" className='navLink'>Home</a>
+        <a href="/" className='navLink'>Projects</a>
+        <a href="/" className='navLink'>Personal Info</a>
+        <a href="/" className='navLink'>Contact</a>
         </div>
 
     </nav>
