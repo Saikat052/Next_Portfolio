@@ -1,8 +1,9 @@
 import React from 'react';
+import './body.css';
 
 const Body: React.FC = () => {
   return (
-       <div>this is body</div>
+       <div className='img'></div>
 
   );
 };

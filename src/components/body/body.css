@@ -1,0 +1,11 @@
+body{
+    background-color: blue;
+}
+.img{
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    background-image: url("https://thumbs.dreamstime.com/b/tiger-white-background-isolated-73110104.jpg");
+    background-size: contain;
+    mix-blend-mode: darken;
+}

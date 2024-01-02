@@ -1,3 +1,39 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: wheat;
+    height: 10vh;
+}
+.navContainerDesktop{
+    position: relative;
+    width: 50%;
+    right: -10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: wheat;
+}
+.navIcon{
+    width: 25%;
+    margin: 0 2%;
+    text-align: center;
+}
+.navContainerMobile{
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .navContainerDesktop{
+        display: none;
+    }
+    .navContainerMobile{
+        display: block;
+    }
+
+}
