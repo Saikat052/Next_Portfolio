@@ -1,12 +1,17 @@
 // src/components/Header.tsx
 import React from 'react';
 import './header.css';
+import { BoxIcon } from 'boxicons';
+
 const Header: React.FC = () => {
 
   return (
     <nav className="navBar">
 
         <div className='logo'>Logo</div>
+        <label className="menuIcon">
+        <box-icon name='menu' flip='vertical' ></box-icon>
+        </label>
         
         <div className='navContainerDesktop'>
         <a href="/" className='navLink'>Home</a>
