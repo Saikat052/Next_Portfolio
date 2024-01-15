@@ -1,8 +1,6 @@
 :root {
     --body-desktop-background-image: url('../../app/assets/image/rainbow-desktop-dragon.jpg');
     --body-mobile-background-image: url('../../app/assets/image/rainbow-dragon-mobile.jpg');
-
-    
   }
   *{
     margin: 0;
@@ -11,13 +9,14 @@
     font-family: sans-serif;
   }
   body {
-    
+    height: 100vh;
+    width: 100vw;
     background-image: var(--body-desktop-background-image) ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
 
-  
+
   .img {
     margin-top: 100px;
     width: 200px;
@@ -25,4 +24,3 @@
     background-size: contain;
     mix-blend-mode: darken;
   }
-  

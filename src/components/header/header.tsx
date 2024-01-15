@@ -1,7 +1,6 @@
 // src/components/Header.tsx
 import React from 'react';
 import './header.css';
-import { BoxIcon } from 'boxicons';
 
 const Header: React.FC = () => {
 
@@ -9,10 +8,13 @@ const Header: React.FC = () => {
     <nav className="navBar">
 
         <div className='logo'>Logo</div>
-        <label className="menuIcon">
-        <box-icon name='menu' flip='vertical' ></box-icon>
+
+        <label  className="toggle">
+          <div className="bar bar--top"></div>
+          <div className="bar bar--middle"></div>
+          <div className="bar bar--bottom"></div>
         </label>
-        
+
         <div className='navContainerDesktop'>
         <a href="/" className='navLink'>Home</a>
         <a href="/" className='navLink'>Projects</a>
